@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: Read-Replicas
+
+  datasource:
+    master:
+      jdbc-url: jdbc:mysql://localhost:3308/db_scaling_demo
+      username: root
+      password: password
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+    replica:
+      jdbc-url: jdbc:mysql://localhost:3309/db_scaling_demo
+      username: root
+      password: password
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  
+  jpa:
+    show-sql: true
+    hibernate:
+      format_sql: true
+      dialect: org.hibernate.dialect.MySQL8Dialect
