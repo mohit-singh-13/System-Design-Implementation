@@ -27,9 +27,9 @@ Arpit's course is excellent for understanding the _why_ behind system design dec
 
 ## 🗂️ Implementations
 
-| Concept              | Folder                           | Status  |
-| -------------------- | -------------------------------- | ------- |
-| Read Replica (MySQL) | [`read-replica/`](./read-replica/) | ✅ Done |
+| Concept               | Folder                               | Status  |
+| --------------------- | ------------------------------------ | ------- |
+| Read Replicas (MySQL) | [`read-replicas/`](./read-replicas/) | ✅ Done |
 
 > More implementations will be added as I progress through the course.
 
